@@ -4,7 +4,7 @@ name := "jacoco4sbt"
 
 organization := "de.johoop"
 
-version := "2.1.7-SNAPSHOT"
+version := "2.1.7"
 
 resolvers += "Sonatype Release" at "https://oss.sonatype.org/content/repositories/releases"
 
@@ -14,7 +14,7 @@ val jacocoCore = Artifact("org.jacoco.core", "jar", "jar")
 
 val jacocoReport = Artifact("org.jacoco.report", "jar", "jar")
 
-val jacocoVersion = "0.7.1.201405082137"
+val jacocoVersion = "0.7.5.201505241946"
 
 libraryDependencies ++= Seq(
   "org.jacoco"  %  "org.jacoco.core"   % jacocoVersion artifacts(jacocoCore),
@@ -23,7 +23,7 @@ libraryDependencies ++= Seq(
   "org.mockito" %  "mockito-all"       % "1.9.5"  % Test,
   "org.pegdown" %  "pegdown"           % "1.2.1"  % Test
 )
-   
+
 scalacOptions ++= Seq("-unchecked", "-deprecation", "-language:_")
 
 buildInfoSettings

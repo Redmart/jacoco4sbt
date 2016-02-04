@@ -19,6 +19,9 @@ See [Wiki](https://github.com/sbt/jacoco4sbt/wiki) for more details.
 [![Build Status](https://travis-ci.org/sbt/jacoco4sbt.svg?branch=master)](https://travis-ci.org/sbt/jacoco4sbt)
 
 ## Change Log
+* *2.1.7*
+    * Updated to JaCoCo version 0.7.5
+
 * *2.1.6*
     * Updated to JaCoCo version 0.7.1 (fixing [#22](https://github.com/sbt/jacoco4sbt/issues/22))
     * Fixed integration test settings (fixing [#13](https://github.com/sbt/jacoco4sbt/issues/13))
@@ -51,13 +54,13 @@ See [Wiki](https://github.com/sbt/jacoco4sbt/wiki) for more details.
 
     * Updated to work with sbt 0.13.x (contributed by Patrick)
     * Updated to latest JaCoCo version 0.6.3
-    
+
 * *2.0.0* (contributed by Joost)
 
     * Integration testing
     * (Optional) merging coverage of unit and integration tests
     * `clean` key for cleaning the JaCoCo output directory selectively
-    
+
 * *1.2.2* (contributed by Andreas)
 
     * Includes and excludes
